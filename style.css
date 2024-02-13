@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+section{
+    background: #0e183e;
+    height: 100vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section h2{
+    padding: 20px 0;
+}
+
+.card{
+    background: #fff;
+    width: 400px;
+    padding: 25px 25px;
+    border-radius: 20px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.range{
+    width: 300px;
+    height: 15px;
+    background-color: #e8ebf4;
+    border: 1px solid #c3cde9;
+    border-radius: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.range::before{
+    content: '';
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+}
+
+.mat::before{
+    width: 52%;
+    background-color: #fc9860;
+}
+
+.che::before{
+    width: 76%;
+    background-color: #608cfc;
+}
+
+.sci::before{
+    width: 21%;
+    background-color: #fc6068;
+}
